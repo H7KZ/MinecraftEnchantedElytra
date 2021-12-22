@@ -54,7 +54,7 @@ public class ElytraCommands implements CommandExecutor {
                 //ENABLE FLY FUNCTION ONLY IF HE HAS ELYTRA WITH SPECIFIC ENCHANTMENT
 
                 if (p.getEquipment().getChestplate() == null || p.getEquipment().getChestplate().getEnchantments() == null) {
-                    p.sendMessage(ChatColor.RED + "You need to wear an elytra with " + config.getString("EnchantmentName") + "enchantment to be able to fly!");
+                    p.sendMessage(ChatColor.RED + "You need to wear an elytra with " + config.getString("EnchantmentName") + " enchantment to be able to fly!");
                     return true;
                 }
 
