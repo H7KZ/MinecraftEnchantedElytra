@@ -1,0 +1,9 @@
+EnchantmentName: 'Flight'
+Command:
+  Enable: 'enable'
+  Disable: 'disable'
+  Enchant: 'enchant'
+Permission:
+  Enable: 'ee.enable'
+  Disable: 'ee.disable'
+  Enchant: 'ee.enchant'

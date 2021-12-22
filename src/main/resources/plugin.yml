@@ -1,0 +1,11 @@
+name: EnchantedElytra
+version: '${project.version}'
+main: me.honzakomi.enchantedelytra.EnchantedElytra
+api-version: 1.18
+authors: [ HonzaKOMI ]
+description: Custom Elytra with Enchant that allows players to fly
+website: https://kominek.pages.dev
+commands:
+  ee:
+    description: use elytra at its full power
+    usage: /<command>
